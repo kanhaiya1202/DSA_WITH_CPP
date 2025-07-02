@@ -1,3 +1,6 @@
+//basic Logic coditional if else
+//show the character is Lowercase, Uppercase, digit
+
 #include <iostream>
 using namespace std;
 
