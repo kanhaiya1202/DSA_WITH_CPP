@@ -1,28 +1,23 @@
-// ****
-// ****
-// ****
-// **** basic pattern code  
+// show basic pattern : =>
+//* * *
+//* * *
+//* * *
 
 #include<iostream>
 using namespace std;
 
 int main(){
     int n;
-    cout<<"Enter The Value :"<<endl;
+    cout<<"Enter the value"<<endl;
     cin>>n;
-
-    int row = 1;
-    while (row<=n)
-    {
-       int column = 1;
-       while (column<=n)
-       {
+    int i = 1;
+    while(i<=n){
+        i++;
+        int j = 1;
+        while(j<= n){
+            j++;
             cout<<"*";
-            column = column + 1;
-       }
-          
-       cout<<endl;
-       row = row + 1;
-       
+        }
+        cout<<endl;
     }
 }
