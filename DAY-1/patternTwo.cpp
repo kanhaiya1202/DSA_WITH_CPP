@@ -22,6 +22,12 @@ int main(){
         {  
             j++;
             cout<<" "<<j<<" ";
+            // if you are print this pattern {use:- n-j+1}
+            //4 3 2 1
+            //4 3 2 1 
+            //4 3 2 1 
+            //4 3 2 1 
+            //cout<<" "<<n-j+1<<" ";
         }
         cout<<endl;
         
