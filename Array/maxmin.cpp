@@ -20,7 +20,7 @@ int MinNUmber(int num[], int n){
 
         mini = min(mini, num[i]);
         // if(num[i] < min){
-        //     min = num[i];
+        //         min = num[i];
         // }
     }
     return mini;
@@ -30,8 +30,9 @@ int main(){
 
     int size;
     cout<<"Enter the size of array "<<endl;
-    cin>>size;
 
+    cin>>size;
+    cout<<" ";
     // Declare array
     int num[100];
     for(int i = 0; i < size; i++){
