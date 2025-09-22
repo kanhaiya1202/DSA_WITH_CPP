@@ -53,7 +53,11 @@ int main(){
     int odd[5] = {1,2,3,3,5};
     
     int answer = firstOccurance(odd, 5, 3);
-    cout<<"first Occurence element :- "<<answer<<endl;
-    cout <<"last occurenece element :- "<<lastOccurance(odd,5,3)<<endl;
+    int last = lastOccurance(odd,5,3);
+    int total =( last - answer) +1;
+    cout<<"first Occurence element : => "<<answer<<endl;
+    cout <<"last occurenece element : => "<<last <<endl;
+    cout<<"total number of occurece of element : => "<<total<<endl;
+    
 
 }
